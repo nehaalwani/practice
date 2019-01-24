@@ -11,26 +11,17 @@ header{
     width: 30%;
     height: 100%;
     float: left;}
-  
-#head2{
-    float: right;
-    width: 70%;
-    height: 100%; }
+
    
 #head2 ul{
     width: 60%;
-    height: 100%;
-    float: right;
-    margin-top: 15px;
-    margin-right: 10%;
-    color: #005b86; }
+    text-align:right;
+    color: #005b86; 
+    padding-left: 300px;}
   
 #head2 li{
 	display: inline-block;
-	padding-left: 5%;
-	padding-right: 5%;
-	padding-top: 11.205px;
-	padding-bottom: 11.205px;}
+	padding:20px;}
 
 #banner{
     width: 100%;
@@ -39,7 +30,7 @@ header{
     text-align: center;
     font-family: 'Raleway', sans-serif;
     font-size: 200%;
-   display: table;}
+   padding: 1px 0 1px 0;}
 
  #img_l{
     position: absolute;
@@ -54,7 +45,8 @@ header{
  footer{
     background-color: #007694;
     width: 100%;
-    height: 80px;}
+    height: 80px;
+margin-top:530px;}
 
 footer ul{
     display: flex;
@@ -89,14 +81,14 @@ header:after {
   	clear: both;}	
 	
 form{
-    margin: 20px 0 0 40px;
+    
     padding: 1%;
     height: 80%;
-    width: 50%;}
+    }
   
 .bt{
    padding: 3px;
-   margin-bottom: 10px;
+  margin-left: 50px;
    box-sizing: border-box;
    background-color: #F8A549;
    border: 1px solid #F9C794; 
@@ -105,15 +97,16 @@ form{
 .f1{
   padding: 3px;
   margin-bottom: 10px;
-  width: 100%;
+margin-left: 50px;
+  width: 50%;
   box-sizing: border-box;
   background-color: #F8A549;
   border: 1px solid #F9C794;
   color: inherit;}
  
 #main{
-	width:94%;
 	margin:0.5% 3% 0.5% 3%;}
+
 #left{
     background-color: #FFE469;
     height:500px;
@@ -128,8 +121,10 @@ form{
     margin-top: 100px;}
 
 .center{
-	height=500px;
-	margin-bottom:8px;}
+	height:500px;
+	margin-bottom:8px;
+	width:59%;
+	float:right;}
 
 .center:after {
   	content: "";
@@ -138,18 +133,14 @@ form{
 		
 .right{
 	background-color: #ED8719;
-	text-align: center;
+	
 	color:white;
-	width: 59%;
-	height: 300px;	
-	float:right;	}
+	height: 300px;	}
 
 .extra{
 	background-color: #8AE33B;
 	color:white;
 	height: 190px;
-	width: 59%;
 	text-align: center;
-	margin-top: 10px;
-	float:right;	}
+	margin-top: 10px;}
  
