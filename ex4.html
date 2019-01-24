@@ -3,6 +3,36 @@
 <head>
 	<link rel="stylesheet" href="ex4.css">
    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script type="text/javascript">
+$(document).ready(function() {
+
+    $('#img_l').click(function() {
+        $('#banner h1').animate({
+        'marginTop' : "+=30px" 
+        });
+    });
+
+    $('#img_r').click(function() {
+        $('#banner h1').animate({
+        'marginTop' : "-=30px" 
+        });
+    });
+
+    $("#hm").click(function(){
+      	$("#ss").hide();
+
+    });
+
+    $("#cs").click(function(){
+       $("#ss").show();
+
+    });
+
+
+
+});
+
+</script>
 </head>
 
 <body>
